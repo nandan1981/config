@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.eureka.config</groupId>
+    <groupId>com.eureka</groupId>
     <artifactId>config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -34,19 +34,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-<<<<<<< HEAD
-        <!--<dependency>-->
-            <!--<groupId>com.eureka.config</groupId>-->
-            <!--<artifactId>config</artifactId>-->
-            <!--<version>0.0.1-SNAPSHOT</version>-->
-        <!--</dependency>-->
-=======
-        <dependency>
-            <groupId>com.eureka.config</groupId>
-            <artifactId>config</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
->>>>>>> a6f55103f038a549a69804d003a6f07e1a79b404
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
